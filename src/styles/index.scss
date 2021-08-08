@@ -1,13 +1,40 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+body {
+    background-image: url(https://www.wallpapertip.com/wmimgs/57-572352_night-sky-trafic-light.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.light {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color:gray;
+    margin: 15px 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.danger {
+    background-color: red;
+}
+.warning {
+    background-color: orange;
+}
+.go {
+    background-color: green;
+}
+.box {
+    //container border border-dark d-flex flex-column bg-dark border
+    background: black;
+    border-radius: 5rem;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
